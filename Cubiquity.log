@@ -1,0 +1,14 @@
+********************************************************************************
+*                             Initializing Cubiquity                           *
+********************************************************************************
+[12:33:01, Info   ]: Creating empty voxel database as 'F:/14 Game Sprint/AmbrosiaFair/Ambrosia_Fair_30.06.2016/Assets/StreamingAssets/Cubiquity/VoxelDatabases/585741B8.vdb'
+[12:34:20, Info   ]: Creating empty voxel database as 'F:/14 Game Sprint/AmbrosiaFair/Ambrosia_Fair_30.06.2016/Assets/StreamingAssets/Cubiquity/VoxelDatabases/068C0341.vdb'
+[12:36:40, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[12:36:40, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[12:36:41, Info   ]: Creating voxel database from 'F:/14 Game Sprint/AmbrosiaFair/Ambrosia_Fair_30.06.2016/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensColoredCubes.vdb'
+[12:37:06, Info   ]: Creating voxel database from 'F:/14 Game Sprint/AmbrosiaFair/Ambrosia_Fair_30.06.2016/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensColoredCubes.vdb'
+[12:39:49, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[12:39:50, Info   ]: Creating voxel database from 'F:/14 Game Sprint/AmbrosiaFair/Ambrosia_Fair_30.06.2016/Assets/StreamingAssets/Cubiquity/VoxelDatabases/Examples/VoxeliensColoredCubes.vdb'
+[12:39:52, Info   ]: Creating voxel database from 'F:/14 Game Sprint/AmbrosiaFair/Ambrosia_Fair_30.06.2016/Assets/StreamingAssets/Cubiquity/VoxelDatabases/068C0341.vdb'
+[12:39:52, Info   ]: Creating voxel database from 'F:/14 Game Sprint/AmbrosiaFair/Ambrosia_Fair_30.06.2016/Assets/StreamingAssets/Cubiquity/VoxelDatabases/585741B8.vdb'
+[12:39:58, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once

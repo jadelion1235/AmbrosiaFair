@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 8196e0403bfe2254c954a6631ea8f166
+timeCreated: 1467161115
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Back1
+    100002: Back2
+    100004: BackEnd
+    100006: Base
+    100008: HipsTranslate_CTR
+    100010: HotDog_Enemy:Mesh
+    100012: L_Foot
+    100014: L_FootEnd
+    100016: L_Leg_Lower
+    100018: L_Leg_Upper
+    100020: R_Foot
+    100022: R_FootEnd
+    100024: R_Leg_Lower
+    100026: R_Leg_Upper
+    100028: //RootNode
+    100030: Spine1_CTR
+    100032: Spine2_CTR
+    100034: transform4
+    400000: Back1
+    400002: Back2
+    400004: BackEnd
+    400006: Base
+    400008: HipsTranslate_CTR
+    400010: HotDog_Enemy:Mesh
+    400012: L_Foot
+    400014: L_FootEnd
+    400016: L_Leg_Lower
+    400018: L_Leg_Upper
+    400020: R_Foot
+    400022: R_FootEnd
+    400024: R_Leg_Lower
+    400026: R_Leg_Upper
+    400028: //RootNode
+    400030: Spine1_CTR
+    400032: Spine2_CTR
+    400034: transform4
+    4300000: HotDog_Enemy:Mesh
+    7400000: SaussageWalk
+    7400002: SaussageSlapAttack
+    7400004: DeadSaussage
+    9500000: //RootNode
+    13700000: HotDog_Enemy:Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SaussageWalk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Back1
+        weight: 1
+      - path: Base/Back1/Back2
+        weight: 1
+      - path: Base/Back1/Back2/BackEnd
+        weight: 1
+      - path: Base/R_Leg_Upper
+        weight: 1
+      - path: Base/R_Leg_Upper/R_Leg_Lower
+        weight: 1
+      - path: Base/R_Leg_Upper/R_Leg_Lower/R_Foot
+        weight: 1
+      - path: Base/R_Leg_Upper/R_Leg_Lower/R_Foot/R_FootEnd
+        weight: 1
+      - path: Base/transform4
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper/L_Leg_Lower
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper/L_Leg_Lower/L_Foot
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper/L_Leg_Lower/L_Foot/L_FootEnd
+        weight: 1
+      - path: HipsTranslate_CTR
+        weight: 1
+      - path: HipsTranslate_CTR/Spine1_CTR
+        weight: 1
+      - path: HipsTranslate_CTR/Spine1_CTR/Spine2_CTR
+        weight: 1
+      - path: HotDog_Enemy:Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: SaussageSlapAttack
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.7447698
+        functionName: DamagePlayer
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Back1
+        weight: 1
+      - path: Base/Back1/Back2
+        weight: 1
+      - path: Base/Back1/Back2/BackEnd
+        weight: 1
+      - path: Base/R_Leg_Upper
+        weight: 1
+      - path: Base/R_Leg_Upper/R_Leg_Lower
+        weight: 1
+      - path: Base/R_Leg_Upper/R_Leg_Lower/R_Foot
+        weight: 1
+      - path: Base/R_Leg_Upper/R_Leg_Lower/R_Foot/R_FootEnd
+        weight: 1
+      - path: Base/transform4
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper/L_Leg_Lower
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper/L_Leg_Lower/L_Foot
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper/L_Leg_Lower/L_Foot/L_FootEnd
+        weight: 1
+      - path: HipsTranslate_CTR
+        weight: 1
+      - path: HipsTranslate_CTR/Spine1_CTR
+        weight: 1
+      - path: HipsTranslate_CTR/Spine1_CTR/Spine2_CTR
+        weight: 1
+      - path: HotDog_Enemy:Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: DeadSaussage
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Back1
+        weight: 1
+      - path: Base/Back1/Back2
+        weight: 1
+      - path: Base/Back1/Back2/BackEnd
+        weight: 1
+      - path: Base/R_Leg_Upper
+        weight: 1
+      - path: Base/R_Leg_Upper/R_Leg_Lower
+        weight: 1
+      - path: Base/R_Leg_Upper/R_Leg_Lower/R_Foot
+        weight: 1
+      - path: Base/R_Leg_Upper/R_Leg_Lower/R_Foot/R_FootEnd
+        weight: 1
+      - path: Base/transform4
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper/L_Leg_Lower
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper/L_Leg_Lower/L_Foot
+        weight: 1
+      - path: Base/transform4/L_Leg_Upper/L_Leg_Lower/L_Foot/L_FootEnd
+        weight: 1
+      - path: HipsTranslate_CTR
+        weight: 1
+      - path: HipsTranslate_CTR/Spine1_CTR
+        weight: 1
+      - path: HipsTranslate_CTR/Spine1_CTR/Spine2_CTR
+        weight: 1
+      - path: HotDog_Enemy:Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

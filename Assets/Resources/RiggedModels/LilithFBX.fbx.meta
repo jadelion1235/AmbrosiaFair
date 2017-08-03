@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: 55a7b9cdcc0b143459bdf3ba2026a73f
+timeCreated: 1467335132
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Controls_GRP
+    100002: CTR_Base
+    100004: CTR_DemonHalo
+    100006: CTR_Hips
+    100008: Geometry_GRP
+    100010: JNT_hips
+    100012: L_Arm_Lower
+    100014: L_Arm_Upper
+    100016: L_ArmEnd
+    100018: L_ArmLower
+    100020: L_ArmUpper
+    100022: L_Braid1
+    100024: L_Braid2
+    100026: L_Braid3
+    100028: L_Braid4
+    100030: L_Braid5
+    100032: L_BraidEnd
+    100034: L_Foot
+    100036: L_FootEnd
+    100038: L_LegLower
+    100040: L_LegUpper
+    100042: //RootNode
+    100044: LilithHead:Mesh
+    100046: Mesh4
+    100048: Mesh6
+    100050: Mesh7
+    100052: R_Arm_Lower
+    100054: R_Arm_Upper1
+    100056: R_ArmEnd
+    100058: R_ArmLower
+    100060: R_ArmUpper
+    100062: R_Braid1
+    100064: R_Braid2
+    100066: R_Braid3
+    100068: R_Braid4
+    100070: R_Braid5
+    100072: R_BraidEnd
+    100074: R_Foot
+    100076: R_FootEnd
+    100078: R_LegLower
+    100080: R_LegUpper
+    100082: Skeleton_JNT
+    100084: Spine1
+    100086: Spine2
+    100088: Spine3
+    100090: Spine4
+    100092: Spine5
+    100094: Spine_Base
+    100096: Spine_Base_CTRL
+    100098: Spine_Hi_CTRL
+    100100: Spine_Mid_CTRL
+    100102: SpineEnd
+    100104: transform2
+    100106: transform3
+    100108: transform4
+    400000: Controls_GRP
+    400002: CTR_Base
+    400004: CTR_DemonHalo
+    400006: CTR_Hips
+    400008: Geometry_GRP
+    400010: JNT_hips
+    400012: L_Arm_Lower
+    400014: L_Arm_Upper
+    400016: L_ArmEnd
+    400018: L_ArmLower
+    400020: L_ArmUpper
+    400022: L_Braid1
+    400024: L_Braid2
+    400026: L_Braid3
+    400028: L_Braid4
+    400030: L_Braid5
+    400032: L_BraidEnd
+    400034: L_Foot
+    400036: L_FootEnd
+    400038: L_LegLower
+    400040: L_LegUpper
+    400042: //RootNode
+    400044: LilithHead:Mesh
+    400046: Mesh4
+    400048: Mesh6
+    400050: Mesh7
+    400052: R_Arm_Lower
+    400054: R_Arm_Upper1
+    400056: R_ArmEnd
+    400058: R_ArmLower
+    400060: R_ArmUpper
+    400062: R_Braid1
+    400064: R_Braid2
+    400066: R_Braid3
+    400068: R_Braid4
+    400070: R_Braid5
+    400072: R_BraidEnd
+    400074: R_Foot
+    400076: R_FootEnd
+    400078: R_LegLower
+    400080: R_LegUpper
+    400082: Skeleton_JNT
+    400084: Spine1
+    400086: Spine2
+    400088: Spine3
+    400090: Spine4
+    400092: Spine5
+    400094: Spine_Base
+    400096: Spine_Base_CTRL
+    400098: Spine_Hi_CTRL
+    400100: Spine_Mid_CTRL
+    400102: SpineEnd
+    400104: transform2
+    400106: transform3
+    400108: transform4
+    4300000: Mesh4
+    4300002: Mesh6
+    4300004: LilithHead:Mesh
+    4300006: Mesh7
+    7400000: Walk
+    7400002: idle
+    7400004: Death
+    9500000: //RootNode
+    13700000: LilithHead:Mesh
+    13700002: Mesh4
+    13700004: Mesh6
+    13700006: Mesh7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Controls_GRP
+        weight: 1
+      - path: Controls_GRP/CTR_Base
+        weight: 1
+      - path: Controls_GRP/CTR_Base/CTR_Hips
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/CTR_DemonHalo
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/L_Arm_Upper
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/L_Arm_Upper/L_Arm_Lower
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/R_Arm_Upper1
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/R_Arm_Upper1/R_Arm_Lower
+        weight: 1
+      - path: Geometry_GRP
+        weight: 1
+      - path: Geometry_GRP/LilithHead:Mesh
+        weight: 1
+      - path: Geometry_GRP/Mesh4
+        weight: 1
+      - path: Geometry_GRP/Mesh6
+        weight: 1
+      - path: Geometry_GRP/Mesh7
+        weight: 1
+      - path: Skeleton_JNT
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper/R_LegLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper/R_LegLower/R_Foot
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper/R_LegLower/R_Foot/R_FootEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper/L_LegLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper/L_LegLower/L_Foot
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper/L_LegLower/L_Foot/L_FootEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/L_ArmUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/L_ArmUpper/L_ArmLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/L_ArmUpper/L_ArmLower/L_ArmEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3/R_Braid4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3/R_Braid4/R_Braid5
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3/R_Braid4/R_Braid5/R_BraidEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/SpineEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3/L_Braid4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3/L_Braid4/L_Braid5
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3/L_Braid4/L_Braid5/L_BraidEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3/R_ArmUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3/R_ArmUpper/R_ArmLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3/R_ArmUpper/R_ArmLower/R_ArmEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Controls_GRP
+        weight: 1
+      - path: Controls_GRP/CTR_Base
+        weight: 1
+      - path: Controls_GRP/CTR_Base/CTR_Hips
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/CTR_DemonHalo
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/L_Arm_Upper
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/L_Arm_Upper/L_Arm_Lower
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/R_Arm_Upper1
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/R_Arm_Upper1/R_Arm_Lower
+        weight: 1
+      - path: Geometry_GRP
+        weight: 1
+      - path: Geometry_GRP/LilithHead:Mesh
+        weight: 1
+      - path: Geometry_GRP/Mesh4
+        weight: 1
+      - path: Geometry_GRP/Mesh6
+        weight: 1
+      - path: Geometry_GRP/Mesh7
+        weight: 1
+      - path: Skeleton_JNT
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper/R_LegLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper/R_LegLower/R_Foot
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper/R_LegLower/R_Foot/R_FootEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper/L_LegLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper/L_LegLower/L_Foot
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper/L_LegLower/L_Foot/L_FootEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/L_ArmUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/L_ArmUpper/L_ArmLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/L_ArmUpper/L_ArmLower/L_ArmEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3/R_Braid4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3/R_Braid4/R_Braid5
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3/R_Braid4/R_Braid5/R_BraidEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/SpineEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3/L_Braid4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3/L_Braid4/L_Braid5
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3/L_Braid4/L_Braid5/L_BraidEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3/R_ArmUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3/R_ArmUpper/R_ArmLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3/R_ArmUpper/R_ArmLower/R_ArmEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 49
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Controls_GRP
+        weight: 1
+      - path: Controls_GRP/CTR_Base
+        weight: 1
+      - path: Controls_GRP/CTR_Base/CTR_Hips
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/CTR_DemonHalo
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/L_Arm_Upper
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/L_Arm_Upper/L_Arm_Lower
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/R_Arm_Upper1
+        weight: 1
+      - path: Controls_GRP/CTR_Base/Spine_Base_CTRL/Spine_Mid_CTRL/Spine_Hi_CTRL/R_Arm_Upper1/R_Arm_Lower
+        weight: 1
+      - path: Geometry_GRP
+        weight: 1
+      - path: Geometry_GRP/LilithHead:Mesh
+        weight: 1
+      - path: Geometry_GRP/Mesh4
+        weight: 1
+      - path: Geometry_GRP/Mesh6
+        weight: 1
+      - path: Geometry_GRP/Mesh7
+        weight: 1
+      - path: Skeleton_JNT
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper/R_LegLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper/R_LegLower/R_Foot
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/R_LegUpper/R_LegLower/R_Foot/R_FootEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper/L_LegLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper/L_LegLower/L_Foot
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/JNT_hips/transform2/L_LegUpper/L_LegLower/L_Foot/L_FootEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/L_ArmUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/L_ArmUpper/L_ArmLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/L_ArmUpper/L_ArmLower/L_ArmEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3/R_Braid4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3/R_Braid4/R_Braid5
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/R_Braid1/R_Braid2/R_Braid3/R_Braid4/R_Braid5/R_BraidEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/SpineEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3/L_Braid4
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3/L_Braid4/L_Braid5
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/Spine4/Spine5/transform4/L_Braid1/L_Braid2/L_Braid3/L_Braid4/L_Braid5/L_BraidEnd
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3/R_ArmUpper
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3/R_ArmUpper/R_ArmLower
+        weight: 1
+      - path: Skeleton_JNT/Spine_Base/Spine1/Spine2/Spine3/transform3/R_ArmUpper/R_ArmLower/R_ArmEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
