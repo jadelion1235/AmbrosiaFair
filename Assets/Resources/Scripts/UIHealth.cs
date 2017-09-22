@@ -4,10 +4,9 @@ using UnityEngine.UI;
 public class UIHealth : MonoBehaviour {
 
 	Image healthBar;
-	GameObject player;
+	public GameObject player;
 	// Use this for initialization
 	void Start () {
-		player = GameObject.Find("LilithFBX");
 		healthBar = GetComponent<Image>();
 	}
 	

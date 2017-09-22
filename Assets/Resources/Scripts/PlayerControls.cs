@@ -6,8 +6,8 @@ public class PlayerControls : MonoBehaviour
 {
 	public Image healthUI;
 
-	int sensitivity;
-	int moveSensitivity;
+	//int sensitivity;
+	//int moveSensitivity;
 	public int healthPoints;
 	Animator anim;
 	float rotY;
@@ -19,9 +19,9 @@ public class PlayerControls : MonoBehaviour
 	void Start ()
 	{
 		dead = false;
-		sensitivity = 100;
+		//sensitivity = 100;
 		healthPoints = 100;
-		moveSensitivity = 50;
+		//moveSensitivity = 50;
 		anim = GetComponent<Animator> ();
 	}
 	
@@ -35,16 +35,16 @@ public class PlayerControls : MonoBehaviour
 			healthPoints =100;
 		}
 
-		if (healthPoints < 0)
+		if (healthPoints < 0 && !dead)
 		{
 
 			healthPoints = 0;
 		}
 
-		if(!dead){
+		if(!dead && !Screen.lockCursor){
 			Screen.lockCursor = true;
 		}
-		if(dead){
+		if(dead && Screen.lockCursor){
 			Screen.lockCursor = false;
 
 		}
@@ -115,7 +115,7 @@ public class PlayerControls : MonoBehaviour
 			//	transform.Rotate (0, -sensitivity * Time.deltaTime, 0);
 			//}
 
-			if (healthPoints <= 0)
+			if (healthPoints <= 0 && !dead)
 			{
 				dead = true;
 				anim.SetTrigger("Dead");

@@ -17,7 +17,7 @@ public class ItemDropScript : MonoBehaviour {
 	void Start () {
 
 
-		player = GameObject.Find ("LilithFBX");
+		player = GameObject.Find ("NewLilith");
 		pistol = Resources.Load ("Prefabs/Gun") as GameObject;
 		shotGun = Resources.Load ("Prefabs/Shotgun") as GameObject;
 		miniGun = Resources.Load ("Prefabs/MiniGun") as GameObject;
