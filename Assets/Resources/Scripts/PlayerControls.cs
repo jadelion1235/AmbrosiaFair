@@ -50,15 +50,15 @@ public class PlayerControls : MonoBehaviour
 		}
 		if (!dead)
 		{
-			if (Input.GetKeyUp (KeyCode.LeftShift))
-			{
-				sensitivity = 100;
-			}
-
-			if (Input.GetKey (KeyCode.LeftShift))
-			{
-				sensitivity = 25;
-			}
+			//if (Input.GetKeyUp (KeyCode.LeftShift))
+			//{
+			//	sensitivity = 100;
+			//}
+			//
+			//if (Input.GetKey (KeyCode.LeftShift))
+			//{
+			//	sensitivity = 25;
+			//}
 
 
 			if (Input.GetKeyUp (KeyCode.W))
@@ -81,39 +81,39 @@ public class PlayerControls : MonoBehaviour
 			if (Input.GetKey (KeyCode.W))
 			{
 				anim.SetBool ("Walk", true);
-				transform.Translate (Vector3.forward * moveSensitivity * Time.deltaTime);
+				//transform.Translate (Vector3.forward * moveSensitivity * Time.deltaTime);
 
 			}
 			if (Input.GetKey (KeyCode.S))
 			{
 				anim.SetBool ("Walk", true);
 
-				transform.Translate (-Vector3.forward * moveSensitivity * Time.deltaTime);
+				//transform.Translate (-Vector3.forward * moveSensitivity * Time.deltaTime);
 			
 			}
 			if (Input.GetKey (KeyCode.D))
 			{
 				anim.SetBool ("Walk", true);
 
-				transform.Translate (Vector3.right * moveSensitivity / 2 * Time.deltaTime);
+				//transform.Translate (Vector3.right * moveSensitivity / 2 * Time.deltaTime);
 			
 			}
 			if (Input.GetKey (KeyCode.A))
 			{
 				anim.SetBool ("Walk", true);
 
-				transform.Translate (Vector3.left * moveSensitivity / 2 * Time.deltaTime);
+				//transform.Translate (Vector3.left * moveSensitivity / 2 * Time.deltaTime);
 			
 			}
 
-			if (Input.GetAxis ("Mouse X") > 0)
-			{
-				transform.Rotate (0, sensitivity * Time.deltaTime, 0);
-			}
-			if (Input.GetAxis ("Mouse X") < 0)
-			{
-				transform.Rotate (0, -sensitivity * Time.deltaTime, 0);
-			}
+			//if (Input.GetAxis ("Mouse X") > 0)
+			//{
+			//	transform.Rotate (0, sensitivity * Time.deltaTime, 0);
+			//}
+			//if (Input.GetAxis ("Mouse X") < 0)
+			//{
+			//	transform.Rotate (0, -sensitivity * Time.deltaTime, 0);
+			//}
 
 			if (healthPoints <= 0)
 			{

@@ -236,8 +236,8 @@ public class Gun : MonoBehaviour
 		/// UI SPECIFIC BEYOND THIS///
 		//////////////////////////////
 
-		uiAmmo.GetComponent<Text>().text = currentLoadedAmmo.ToString();
-		uiReserve.GetComponent<Text>().text = currentReserve.ToString();
+		//uiAmmo.GetComponent<Text>().text = currentLoadedAmmo.ToString();
+		//uiReserve.GetComponent<Text>().text = currentReserve.ToString();
 
 
 
