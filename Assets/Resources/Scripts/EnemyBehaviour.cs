@@ -25,7 +25,7 @@ public class EnemyBehaviour : MonoBehaviour {
 
 		agent = GetComponent<UnityEngine.AI.NavMeshAgent> ();
 		agent.speed = speed;
-		target = GameObject.Find ("LilithFBX");
+		target = GameObject.Find ("NewLilith");
 		health = 100;
 		updateDisabler = false;
 		StartCoroutine(UpdatePosition());
